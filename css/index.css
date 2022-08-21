@@ -1,0 +1,94 @@
+body {
+  background-color: rgb(238, 238, 238);
+}
+input {
+  border-radius: 3px;
+  border: 0;
+  width: 200px;
+}
+
+.my-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(34, 34, 34);
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+a {
+  color: wheat;
+}
+.navbar-actions {
+  display: flex;
+}
+
+.btn {
+  border-radius: 3px;
+  border: 0;
+  padding: 5px 10px;
+  color: white;
+}
+
+.btn1 {
+  background-color: rgb(7, 117, 201);
+  width: 100px;
+}
+.btn2 {
+  background-color: rgb(5, 79, 48);
+
+  width: 50px;
+}
+.btn3 {
+  background-color: rgb(129, 121, 12);
+  width: 80px;
+  margin-right: 3px;
+}
+button:hover {
+  color: black;
+}
+
+.top-movies {
+  background-color: rgb(255, 255, 255);
+}
+.box1 {
+  background-color: brown;
+  width: 210px;
+  height: 272px;
+  margin: 20px;
+}
+.box2 {
+  background-color: brown;
+  width: 210px;
+  height: 272px;
+  margin: 20px;
+}
+.box3 {
+  background-color: brown;
+  width: 210px;
+  height: 272px;
+  margin: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .my-navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+  .navbar-actions {
+    display: inline;
+    margin: 14px -4px 0 -4px;
+  }
+  .btn {
+    width: 140px;
+  }
+  input {
+    width: 450px;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .my-navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
