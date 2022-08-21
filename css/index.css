@@ -6,6 +6,9 @@ input {
   border: 0;
   width: 200px;
 }
+.container {
+  width: 95%;
+}
 
 .my-navbar {
   display: flex;
@@ -49,6 +52,7 @@ button:hover {
 
 .top-movies {
   background-color: rgb(255, 255, 255);
+  margin-bottom: 2rem;
 }
 .box1 {
   background-color: brown;
@@ -68,7 +72,11 @@ button:hover {
   height: 272px;
   margin: 20px;
 }
-
+.ad {
+  background-color: bisque;
+  width: 300px;
+  height: 272px;
+}
 @media only screen and (max-width: 600px) {
   .my-navbar {
     flex-direction: column;
