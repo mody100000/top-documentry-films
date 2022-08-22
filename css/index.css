@@ -1,3 +1,6 @@
+.main-color {
+  background-color: rgb(255, 255, 255);
+}
 body {
   background-color: rgb(238, 238, 238);
 }
@@ -10,6 +13,18 @@ input {
 h2 {
   margin-block-start: 2rem;
   margin-inline-start: 3rem;
+}
+
+hr {
+  margin-bottom: 102px;
+}
+em {
+  display: contents;
+}
+.docu-text {
+  border-bottom: 1px dotted #94b1df;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .container {
@@ -45,7 +60,7 @@ h2 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
-a {
+.nav-titel {
   color: wheat;
 }
 .navbar-actions {
@@ -77,9 +92,6 @@ button:hover {
   color: black;
 }
 
-.top-movies {
-  background-color: rgb(255, 255, 255);
-}
 .box1 {
   background-color: brown;
   width: 210px;
@@ -98,10 +110,26 @@ button:hover {
   height: 272px;
   margin: 20px;
 }
+.titel {
+  margin-top: 2.5rem;
+  margin-bottom: -2.5rem;
+}
+
 .ad {
   background-color: bisque;
   width: 300px;
   height: 272px;
+}
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
 }
 
 @media only screen and (max-width: 600px) {
