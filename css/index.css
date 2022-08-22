@@ -6,8 +6,35 @@ input {
   border: 0;
   width: 200px;
 }
+
+h2 {
+  margin-block-start: 2rem;
+  margin-inline-start: 3rem;
+}
+
 .container {
   width: 95%;
+}
+.content {
+  margin-bottom: -5rem;
+  margin-right: -2rem;
+}
+.opacity {
+  opacity: 0.4;
+}
+.text-box {
+  background-color: rgb(42, 42, 42);
+  color: rgb(245, 240, 234);
+  margin-bottom: -3rem;
+}
+.movie-box {
+  background-color: blueviolet;
+  width: 150px;
+  height: 190px;
+  display: inline-block;
+  float: left;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
 }
 
 .my-navbar {
@@ -52,7 +79,6 @@ button:hover {
 
 .top-movies {
   background-color: rgb(255, 255, 255);
-  margin-bottom: 2rem;
 }
 .box1 {
   background-color: brown;
@@ -77,6 +103,7 @@ button:hover {
   width: 300px;
   height: 272px;
 }
+
 @media only screen and (max-width: 600px) {
   .my-navbar {
     flex-direction: column;
@@ -91,6 +118,9 @@ button:hover {
   }
   input {
     width: 450px;
+  }
+  .add {
+    margin-top: 3rem;
   }
 }
 
