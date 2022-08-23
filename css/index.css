@@ -1,5 +1,6 @@
 .main-color {
   background-color: rgb(255, 255, 255);
+  border: 1px solid #d3d3d3;
 }
 body {
   background-color: rgb(238, 238, 238);
@@ -16,6 +17,28 @@ h2 {
 }
 
 em {
+  display: contents;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  border: 1px solid #d3d3d3;
+  width: 175px;
+  padding: 5px;
+  margin: 5px;
+  background-color: rgb(239, 239, 239);
+}
+.side-box {
+  width: 95px;
+  height: 125px;
+  background-color: coral;
+  display: inline-block;
+  float: left;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+}
+.list {
   display: contents;
 }
 .docu-text {
