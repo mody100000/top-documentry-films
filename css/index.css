@@ -27,8 +27,10 @@ li {
   width: 175px;
   padding: 5px;
   margin: 5px;
+  cursor: pointer;
   background-color: rgb(239, 239, 239);
 }
+
 .side-box {
   width: 95px;
   height: 125px;
@@ -111,23 +113,26 @@ li {
 button:hover {
   color: black;
 }
+li:hover {
+  background-color: #94b1df;
+}
 
 .box1 {
   background-color: brown;
-  width: 210px;
-  height: 272px;
+  width: 150px;
+  height: 200px;
   margin: 20px;
 }
 .box2 {
   background-color: brown;
-  width: 210px;
-  height: 272px;
+  width: 150px;
+  height: 200px;
   margin: 20px;
 }
 .box3 {
   background-color: brown;
-  width: 210px;
-  height: 272px;
+  width: 150px;
+  height: 200px;
   margin: 20px;
 }
 .INCENTIVE {
@@ -140,8 +145,8 @@ button:hover {
 }
 .ad {
   background-color: bisque;
-  width: 300px;
-  height: 272px;
+  width: 150px;
+  height: 200px;
 }
 .arrow {
   border: solid black;
