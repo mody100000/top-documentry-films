@@ -135,6 +135,23 @@ button:hover {
   border: 1px solid #ccc;
   width: 190px;
   height: 30px;
+  border-radius: 6px;
+}
+button {
+  display: inline-block;
+}
+.button-1 {
+  background: #4ca454 !important;
+  border: none;
+  border-radius: 6px;
+  color: azure;
+  padding: 5px 12px !important;
+  margin-left: 0.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 100px;
+  cursor: pointer;
+  float: inline-end;
 }
 @media only screen and (max-width: 600px) {
   .my-navbar {
