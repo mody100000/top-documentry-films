@@ -188,6 +188,18 @@ button {
   cursor: pointer;
   float: inline-end;
 }
+.button-2 {
+  background: rgb(76, 135, 222);
+  border: none;
+  border-radius: 6px;
+  color: azure;
+  padding: 5px 12px !important;
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 100px;
+  cursor: pointer;
+  float: inline-end;
+}
 .fa {
   padding: 10px;
   font-size: 15px;
@@ -216,6 +228,13 @@ button {
 }
 .fa:hover {
   background-color: cornflowerblue;
+}
+.footer-input {
+  width: 250px;
+  height: 25px;
+  border-radius: 6px;
+  border: 0;
+  margin-right: 5px;
 }
 
 @media only screen and (max-width: 600px) {
