@@ -17,6 +17,15 @@ body {
   border: 0;
   width: 200px;
 }
+.last {
+  font-weight: bold;
+  margin: 1.6rem;
+}
+.tdf {
+  float: right;
+  font-size: small;
+  opacity: 0.4;
+}
 
 h2 {
   margin-block-start: 2rem;
