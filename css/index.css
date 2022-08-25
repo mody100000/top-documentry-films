@@ -267,6 +267,9 @@ button {
   .ff {
     margin-top: -1rem;
   }
+  .tdf {
+    float: none;
+  }
 }
 
 @media only screen and (max-width: 770px) {
