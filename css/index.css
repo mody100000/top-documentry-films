@@ -17,6 +17,7 @@ body {
   border: 0;
   width: 200px;
 }
+
 .last {
   font-weight: bold;
   margin: 1.6rem;
@@ -267,6 +268,9 @@ button {
   .ff {
     margin-top: -1rem;
   }
+  .space {
+    margin-top: 1rem;
+  }
   .tdf {
     float: none;
   }
@@ -276,5 +280,11 @@ button {
   .my-navbar {
     flex-direction: column;
     align-items: flex-start;
+  }
+  .space {
+    margin-top: 3rem;
+  }
+  .tdf {
+    float: none;
   }
 }
